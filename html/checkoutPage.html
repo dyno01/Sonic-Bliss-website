@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="shortcut icon" href="../assets/images/sonic logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/cartPage.css">
+    <link rel="stylesheet" href="../css/cartRespon.css">
+    <link rel="stylesheet" href="../css/transition.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=asap@400,500,600,700&display=swap" rel="stylesheet">
+    <title>Sonic Bliss</title>
+</head>
+<body>
+
+    <div class="transition">
+        <div class="transition-row row-1">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+        <div class="transition-row row-2">
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+            <div class="block"></div>
+        </div>
+    </div>
+    <!-- <preloader class="preloader" id="preloader">
+        <div class="video-div">
+            <video muted loop autoplay src="./assets/headphone animation1.mp4"></video>
+        </div>
+    </preloader> -->
+    <!-- <section class="preloader-menu">
+        <div class="preloader-menu-inner">
+            <div class="preloader-menu-bg">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="video-div">
+                <video muted loop autoplay src="./assets/headphone animation1.mp4"></video>
+            </div>
+        </div>
+    </section> -->
+
+    <main>
+        <header>
+            <div id="header-row">
+                <div id="brand-logo">
+                    <a href="../sonicBliss.html">
+                        <img src="../assets/images/sonic-bliss logo.webp" alt="">
+                    </a>
+                </div>
+    
+                <div id="nav-link">
+                    <!-- <a href="#" id="shop-now">Shop now</a> -->
+                    <a href="#" id="cart"><i class="fa-solid fa-bag-shopping fa-sm" style="color: #ffffff;"></i></a>
+                    <button id="menu-toggle">
+                        <svg viewBox="0 0 12 10" id="hamburger">
+                            <path d="M10,2 L2,2" class="bar-1"></path>
+                            <path d="M2,5 L10,5" class="bar-2"></path>
+                            <path d="M10,8 L2,8" class="bar-3"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <section class="fullpage-menu">
+            <div class="fullpage-menu-inner">
+                <div class="menu-bg">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <nav>
+                    <ul class="main-menu">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Reviews</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-nav-footer">
+                    <ul class="social-links">
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Twitter</a></li>
+                    </ul>
+
+                    <a href="">©2024</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="cart-page">
+            <div class="hero-bg">
+                <img class="sunlight" src="../assets/images/sunlight1.webp" alt="">
+            </div>
+            <div class="cart-items">
+                <div class="cart-container">
+                    <div class="cart-upper-part">
+                        <h1 >Checkout (<span><span class="product-quantity">0</span> items</span>)</h1>
+                    </div>
+                    <div class="cart-lower-part">
+                        <div class="left-cart-part">
+                            <div class="order-summary-div">
+                                <img src="../assets/images/cart.webp">
+									<h3>Your Cart is Empty</h3>
+									<h4>Add something to make me happy :)</h4>
+									<button class="cart-shop-btn" >continue shopping</button>	
+                            </div>
+                        </div>
+                        <div class="right-cart-part">
+                            <div class="payment-summary">
+                                <div class="payment-summary-title">
+                                Order Summary
+                                </div>
+                    
+                                <div class="payment-summary-row">
+                                <div>Items (<span class="item-quantity">0</span>):</div>
+                                <div class="payment-summary-money productPrice">$00.00</div>
+                                </div>
+                    
+                                <div class="payment-summary-row">
+                                <div>Shipping &amp; handling:</div>
+                                <div class="payment-summary-money shippingCharges">$0.00</div>
+                                </div>
+                    
+                                <div class="payment-summary-row subtotal-row">
+                                <div>Total before tax:</div>
+                                <div class="payment-summary-money totalBeforeTax">$00.00</div>
+                                </div>
+                    
+                                <div class="payment-summary-row">
+                                <div>Estimated tax (10%):</div>
+                                <div class="payment-summary-money taxPrice">$00.00</div>
+                                </div>
+                    
+                                <div class="payment-summary-row total-row">
+                                <div>Order total:</div>
+                                <div class="payment-summary-money totalPrice">$00.00</div>
+                                </div>
+                                
+                                <div id="displayText"><h2 id="message">✅ Order placed</h2></div>
+                                <button class="place-order-button button-primary" id="place-order-btn">
+                                Place your order
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+
+    <script src="https://unpkg.com/dayjs@1.11.10/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="../js/data/transitiion.js"></script>
+
+    <script type="module" src="../js/checkoutPage.js"></script>
+</body>
+</html>
