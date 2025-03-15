@@ -135,7 +135,7 @@ export function renderCart(){
     if (cart.length === 0) {
         cartSummaryHTML = `
             <div class="order-summary-div">
-                <img src="../assets/images/cart.png">
+                <img src="../assets/images/cart.webp">
                     <h3>Your Cart is Empty</h3>
                     <h4>Add something to make me happy :)</h4>
                     <a href="../html/shoppingPage.html"><button class="cart-shop-btn" >continue shopping</button></a>
