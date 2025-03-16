@@ -75,8 +75,8 @@
         overflow-y: auto;
     }
     
-  /**********Header Start***********/
-    header{
+    /**********Header Start***********/
+       header{
         position: fixed;
         left: 0;
         top: 0;
@@ -113,7 +113,7 @@
         justify-content: center;
     } */
     #brand-logo img{
-        width: 23vw;
+        width: 32vw;
     }
 
     #header-row #nav-link{
@@ -134,7 +134,7 @@
     } */
 
     #nav-link #cart{
-        font-size: 6vw;
+        font-size: 8vw;
         /* color: #fff;
 
         text-decoration: none; */
@@ -152,8 +152,8 @@
 
 
     #hamburger{
-        height: 6vw;
-        width: 6vw;
+        height: 8vw;
+        width: 8vw;
     }
 
     /* #hamburger path{
@@ -271,7 +271,7 @@
 
     /* /// hamburger menu end ///*/
 
-/*********Header End***********/
+    /******Header End***********/
     
     .shopping-page{
         width: 100%;
