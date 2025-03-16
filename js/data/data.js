@@ -166,7 +166,7 @@ export const page2HTML01 = `
                     <a href="./html/shoppingPage.html"><button>Shop now</button></a>
                 </div>
             </div>
-            <div class="page2-containt-9">
+            <div class="page2-containt-9" id="comment" >
                 <div class="upper-part">
                     <div class="text-area"><h2>What Our Customers Say ?</h2></div>
                     <div class="text-area"><h3>Hear from real people who have the magic of our headphones.</h3></div>
@@ -270,7 +270,7 @@ export const page2HTML02 = `
                     <a href="./html/shoppingPage.html"><button>Shop now</button></a>
                 </div>
             </div>
-            <div class="Earpage2-containt-9">
+            <div class="Earpage2-containt-9" id="comment">
                 <div class="upper-part">
                     <div class="text-area"><h2>What Our Customers Say ?</h2></div>
                     <div class="text-area"><h3>Hear from real people who have the magic of our headphones.</h3></div>
