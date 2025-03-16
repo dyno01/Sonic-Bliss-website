@@ -1,6 +1,8 @@
 
 export function hamburgerMenu(){
     // ***** hamburger menu start ******//
+    
+const menuLinks = document.querySelectorAll(".menu-link");
 
 let menuToggle = document.getElementById("menu-toggle");
 
@@ -60,6 +62,21 @@ hamtl.reverse();
 menuToggle.addEventListener('click', function(){
     menuBar.reversed(!menuBar.reversed());
     hamtl.reversed(!hamtl.reversed());
+});
+
+menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        menuBar.reversed(!menuBar.reversed());
+        hamtl.reversed(!hamtl.reversed()); // Reverse the animation to hide the menu
+
+    });
+});
+
+document.getElementById("feature").addEventListener("click", function () {
+    document.getElementById("page2").scrollIntoView({ behavior: "smooth" });
+});
+document.getElementById("review").addEventListener("click", function () {
+    document.getElementById("comment").scrollIntoView({ behavior: "smooth" });
 });
 // ***** hamburger menu End ******//
 
