@@ -146,7 +146,7 @@ export const page2HTML01 = `
                     <div class="text-area"><h2>Don’t miss out on the ultimate listening exprience. Order your headphones today!</h2></div>
                 </div>
                 <div class="btn-area">
-                    <a href=""><button>Shop now</button></a>
+                    <a href="./html/shoppingPage.html"><button>Shop now</button></a>
                 </div>
             </div>
             <div class="page2-containt-9">
@@ -250,7 +250,7 @@ export const page2HTML02 = `
                     <div class="text-area"><h2>Don’t miss out on the ultimate listening exprience. Order your headphones today!</h2></div>
                 </div>
                 <div class="btn-area">
-                    <a href=""><button>Shop now</button></a>
+                    <a href="./html/shoppingPage.html"><button>Shop now</button></a>
                 </div>
             </div>
             <div class="Earpage2-containt-9">
