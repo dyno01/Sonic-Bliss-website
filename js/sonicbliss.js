@@ -5,6 +5,12 @@ import { reviews,page2HTML01, page2HTML02,hamburgerMenu } from './data/data.js';
 document.getElementById("knowMore").addEventListener("click", function () {
     document.getElementById("page2").scrollIntoView({ behavior: "smooth" });
 });
+document.getElementById("feature").addEventListener("click", function () {
+    document.getElementById("page2").scrollIntoView({ behavior: "smooth" });
+});
+document.getElementById("review").addEventListener("click", function () {
+    document.getElementById("comment").scrollIntoView({ behavior: "smooth" });
+});
 
 
 hamburgerMenu();
