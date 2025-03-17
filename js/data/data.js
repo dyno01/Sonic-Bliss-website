@@ -72,12 +72,6 @@ menuLinks.forEach(link => {
     });
 });
 
-document.getElementById("feature").addEventListener("click", function () {
-    document.getElementById("page2").scrollIntoView({ behavior: "smooth" });
-});
-document.getElementById("review").addEventListener("click", function () {
-    document.getElementById("comment").scrollIntoView({ behavior: "smooth" });
-});
 // ***** hamburger menu End ******//
 
 };
